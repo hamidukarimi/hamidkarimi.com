@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+#contact{
+  
+}
+
+.section {
+    padding: 80px 0;
+    text-align: start;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+#contact .container {
+    text-align: start;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+}
+.all-h2{
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form textarea {
+    resize: vertical;
+}
+
+#contact form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+.profile-photo {
+    width: 130px; /* Adjust the width as needed */
+    height: 130px; /* Adjust the height as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    border: 2px solid #fff; /* Adds a white border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin-bottom: 20px; /* Adds spacing between the photo and the header text */
+}
+
+
+/* Apply smooth scrolling behavior to all scrollable elements */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the navigation links */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Change link color on hover */
+.nav-link:hover {
+  color: #007bff; /* Change to your preferred hover color */
+}
+#whatsapp-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+  }
+.scroll-to-top-btn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+.scroll-to-top-btn a{
+    color: inherit;
+    text-decoration: none;
+}
+.scroll-to-top-btn.show{
+    display: block;
+    opacity: 1;
+}
+.scroll-to-top-btn:hover{
+    background-color: #555;
+}
